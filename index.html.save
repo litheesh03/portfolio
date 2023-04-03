@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -10,7 +11,7 @@
   <!--
     - favicon
   -->
-  <link rel="shortcut icon" href="./assets/images/webicon.png" type="image/x-icon">
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
 
   <!--
     - custom css link
@@ -25,8 +26,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 
-<body style="background-image: url('https://65designs.com/wp-content/uploads/2020/07/crop.jpg')">
-
+<body>
 
   <!--
     - #MAIN
@@ -40,16 +40,16 @@
 
     <aside class="sidebar" data-sidebar>
 
-      <div class="sidebar-info" >
+      <div class="sidebar-info">
 
         <figure class="avatar-box">
-          <img class="avatar-box" src="./assets/images/lithu .jpg"  alt="Litheesh M R" width="80">
+          <img src="./assets/images/icon1.png" alt="Litheesh M R" width="80">
         </figure>
 
         <div class="info-content">
           <h1 class="name" title="Litheesh M R">Litheesh M R</h1>
 
-          <p class="title">developer</p>
+          <p class="title">Web developer</p>
         </div>
 
         <button class="info_more-btn" data-sidebar-btn>
@@ -70,13 +70,13 @@
 
             <div class="icon-box">
               <ion-icon name="mail-outline"></ion-icon>
-            </div>
+litheesh03@gmail.com            </div>
 
             <div class="contact-info">
               <p class="contact-title">Email</p>
-              <a href="mailto:litheesh03@gmail.com" class="contact-link">litheesh03@gmail.com</a>
-            </div>
 
+              <a href="mailto:richard@example.com" class="contact-link">litheesh03@gmail.com</a>
+            </div>
           </li>
 
           <li class="contact-item">
@@ -88,7 +88,7 @@
             <div class="contact-info">
               <p class="contact-title">Phone</p>
 
-              <a href="tel:8056032252" class="contact-link">+91 8056032252</a>
+              <a href="tel:+12133522795" class="contact-link">+91 8056032252</a>
             </div>
 
           </li>
@@ -177,7 +177,9 @@
             <button class="navbar-link" data-nav-link>Resume</button>
           </li>
 
-        
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
 
         </ul>
 
@@ -191,7 +193,7 @@
         - #ABOUT
       -->
 
-      <article class="about  active" data-page="about" style="background-image: url('https://65designs.com/wp-content/uploads/2020/07/crop.jpg')">
+      <article class="about  active" data-page="about">
 
         <header>
           <h2 class="h2 article-title">About me</h2>
@@ -199,8 +201,10 @@
 
         <section class="about-text">
           <p>
-            Innovative Full-Stack Developer with Strong Python, Django, C, SQL, HTML, CSS, and Git Skills
-             Seeking Opportunities to Contribute and Grow with a Forward-Thinking Company
+           To work with a company which appreciates
+innovation so that I can enhance my knowledge
+and skills to give my best for the growth of the
+company.
           </p>
         </section>
 
@@ -218,24 +222,11 @@
 
               <div class="title-wrapper">
                 <h5 class="h5">C</h5>
-                <data value="80">70%</data>
+                <data value="80">80%</data>
               </div>
 
               <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="--initial-percent: 70%;"data-percent="70%"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Python</h5>
-                <data value="80">70%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="--initial-percent: 75%;"data-percent="75%"></div>
+                <div class="skill-progress-fill" style="width: 80%;"></div>
               </div>
 
             </li>
@@ -248,7 +239,7 @@
               </div>
 
               <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="--initial-percent: 50%;"data-percent="50%"></div>
+                <div class="skill-progress-fill" style="width: 50%;"></div>
               </div>
 
             </li>
@@ -261,7 +252,7 @@
               </div>
 
               <div class="skill-progress-bg">
-                <div class="skill-progress-fill"style="--initial-percent: 55%;"data-percent="55%"></div>
+                <div class="skill-progress-fill" style="width: 55%;"></div>
               </div>
 
             </li>
@@ -274,7 +265,7 @@
               </div>
 
               <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="--initial-percent: 75%;"data-percent="75%"></div>
+                <div class="skill-progress-fill" style="width: 75%;"></div>
               </div>
               <li class="skills-item">
 
@@ -284,7 +275,7 @@
                 </div>
   
                 <div class="skill-progress-bg">
-                  <div class="skill-progress-fill" style="--initial-percent: 35%;"data-percent="70%"></div>
+                  <div class="skill-progress-fill" style="width: 35%;"></div>
                 </div>
   
               </li>
@@ -298,7 +289,7 @@
               </div>
 
               <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 55%;"data-percent="55%"></div>
+                <div class="skill-progress-fill" style="width: 55%;"></div>
               </div>
 
             </li>
@@ -307,79 +298,9 @@
 
           </ul>
 
-          <head>
-            <style>
-              .timelinenew {
-                margin-top: 20px;
-              }
-            </style>
-          </head>
-
-        <section class="timelinenew">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
-            </div>
-
-            <h3 class="h3">PERSONAL PROJECTS
-            </h3>
-          </div>
-
-          <ol class="timeline-list">
-
-            <li class="timeline-item">
-    
-
-              <h4 class="h4 timeline-item-title">Recruitment management system </h4>
-
-              
-
-              <p class="timeline-text">
-                <head>
-                  <style>
-                    a {
-                      color: #3f7551; /* blue color */
-                    }
-                  </style>
-                </head>
-               Role - Fullstack
-               <a href="https://litheesh.selfmade.one/"> click to visit site!</a>
-              </p>
-
-            </li>
-            <li class="timeline-item">
-    
-
-              <h4 class="h4 timeline-item-title">Face recognition attendance system </h4>
-
-              
-
-              <p class="timeline-text">
-               built by opencv,pandas
-              
-              </p>
-
-            </li>
-
-        
-
-            </li>
-
-          </ol>
-
-        </section>
-
-        <head>
-          <style>
-            .serv {
-              margin-top: 20px;
-            }
-          </style>
-        </head>
 
 
-        <section class="serv">
+        <section class="service">
 
           <h3 class="h3 service-title">INTERESTS</h3>
 
@@ -412,7 +333,7 @@
                 <h4 class="h4 service-item-title">Hacking</h4>
 
                 <p class="service-item-text">
-                 learning art of hacking through programming
+                 learning art of programming through  hacking 
                 </p>
               </div>
 
@@ -441,12 +362,11 @@
 
               <div class="service-content-box">
                 <h4 class="h4 service-item-title">Photography</h4>
-<!--
+
                 <p class="service-item-text">
                   I make high-quality photos of any category at a professional level.
                 </p>
               </div>
-            -->
 
             </li>
 
@@ -606,19 +526,6 @@
               <p class="timeline-text">
                Role - Fullstack
                <a href="https://litheesh.selfmade.one/"> click to visit site!</a>
-              </p>
-
-            </li>
-            <li class="timeline-item">
-    
-
-              <h4 class="h4 timeline-item-title">Face recognition attendance system </h4>
-
-              
-
-              <p class="timeline-text">
-               built by opencv,pandas
-              
               </p>
 
             </li>
@@ -885,7 +792,7 @@
 
       <!--
         - #CONTACT
-      
+      -->
 
       <article class="contact" data-page="contact">
 
@@ -901,9 +808,34 @@
           </figure>
         </section>
 
-        
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
   </main>
-  -->
 
 
 

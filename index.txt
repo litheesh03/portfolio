@@ -2,23 +2,23 @@ vCard - Personal Portfolio
 
 # sidebar
 
-alt = Richard hanrick
-Richard hanrick
+alt = Litheesh M R
+Litheesh M R
 Web developer
 
 Show Contacts
 
 Email
-richard@example.com
+litheesh03@gmail.com
 
 Phone
-+1 (213) 352-2795
+ +91 8056032252
 
 Birthday
-June 23, 1982
+January 3, 2001
 
 Location
-Sacramento, California, USA
+Chennai,India
 
 # navbar
 
